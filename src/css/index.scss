@@ -1,0 +1,32 @@
+body {
+  // background: url(../img/repeater.jpg);
+  background-color: white;
+}
+.container-search{
+  text-align: center;
+}
+// make center
+.search-tool,
+.img-logo{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.img-logo{
+  width: 270px;
+  height: 129px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-search{
+  border: 2px solid rgb(51, 133, 255);
+  width: 500px;
+  height: 30px;
+}
+.btn-search{
+  color: white;
+  background-color: rgb(51, 133, 255);
+  height: 36px;
+  width: 80px;
+}
