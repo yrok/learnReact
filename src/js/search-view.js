@@ -6,8 +6,6 @@ class SearchView extends React.Component {
     this.state = {
       searchQuery: 'initSearchQuery'
     };
-    this.handleChange = this.handleChange.bind(this);
-    // this.handleClick = this.handleClick.bind({searchQuery});
   }
 
   handleChange(event) {
@@ -28,7 +26,7 @@ class SearchView extends React.Component {
           {this.state.searchQuery}
         </div>
         <input
-          onChange={this.handleChange}
+          onChange={this.handleChange.bind(this)}
           className="input-search"
           type="txt">
         </input>
